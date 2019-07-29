@@ -18,9 +18,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAN-Gp-5Vb">
-                                <rect key="frame" x="156" y="164" width="120" height="182"/>
+                                <rect key="frame" x="147" y="105" width="120" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Click Me"/>
+                                <state key="normal" title="Click Me" backgroundImage="cardDown"/>
                                 <connections>
                                     <action selector="flipCardOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="enu-Dt-WOL"/>
                                 </connections>
@@ -38,4 +38,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cardDown" width="323" height="466"/>
+    </resources>
 </document>
