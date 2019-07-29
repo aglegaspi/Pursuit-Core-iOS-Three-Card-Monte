@@ -9,16 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var winOrLose: UILabel!
     
-    @IBAction func cardOneFlip(_ sender: UIButton) {
-        self.winOrLose.text = "You Won"
+    
+
+    @IBOutlet weak var cardOne: UIButton!
+    let kingImage = UIImage(named: "kingCard")
+    
+    @IBAction func flipCardOne(_ sender: UIButton) {
+        cardOne.setBackgroundImage(kingImage, for: UIControl.State.normal)
     }
     
     
+    // flip one image
+    
+    // flip all three. hint: array
+    
+    // then make randomizer
+    
     override func viewDidLoad() {
     super.viewDidLoad()
+        //this is where the randomizer will go
+        // it will pick the winning card. each button respond in that way.
+        
+        // 3 buttons if you click winning that's the winner else you lost.
+        
     // Do any additional setup after loading the view, typically from a nib.
   }
 
