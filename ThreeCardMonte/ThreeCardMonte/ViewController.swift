@@ -10,7 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-  override func viewDidLoad() {
+    @IBOutlet weak var winOrLose: UILabel!
+    
+    @IBAction func cardOneFlip(_ sender: UIButton) {
+        self.winOrLose.text = "You Won"
+    }
+    
+    
+    override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
   }
